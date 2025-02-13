@@ -1,0 +1,105 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: linear-gradient(to right, #eef2f3, #8e9eab); 
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+.content {
+    flex: 1; 
+}
+
+h1 {
+    font-size: 2.5rem;  
+    font-weight: bold;  
+    color: #ffffff;  
+    text-transform: uppercase; 
+    letter-spacing: 2px; 
+    text-align: center;
+    background: #3d1074;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+}
+
+h3{
+    font-size: 2rem;  
+    font-weight: bold; 
+    color: #3d1074;  
+    text-transform: uppercase; 
+    letter-spacing: 2px;
+    text-align: center; 
+    padding-top: 10px;
+    padding-bottom: 10px; 
+}
+
+
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background: white;
+    overflow: hidden;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+
+.author-date {
+    font-size: 0.9em;
+    color: #555;
+    margin-top: 10px;
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, #2a45bd, #64289f);
+    border: none;
+    transition: 0.3s ease;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(135deg, #764ba2, #667eea);
+    transform: scale(1.01);
+}
+
+.btn-success {
+    background: linear-gradient(135deg, #9d2ecc, #ab53b7);
+    border: none;
+    transition: 0.3s ease;
+}
+
+.btn-success:hover {
+    background: linear-gradient(135deg, #7627ae, #652ecc);
+    transform: scale(1.01);
+}
+
+
+footer {
+    background: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}

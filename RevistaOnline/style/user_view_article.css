@@ -1,0 +1,30 @@
+.comment-box {
+    background-color: #f9f9f9; 
+    padding: 15px;            
+    border: 1px solid #ddd;   
+    border-radius: 8px;      
+    margin-bottom: 15px;      
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.2s ease, box-shadow 0.2s ease; 
+}
+
+.comment-box:hover {
+    transform: scale(1.02);   
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.comment-box strong {
+    color: #333;             
+    font-size: 1.1rem;        
+}
+
+.comment-box small {
+    color: #777;              
+    display: block;           
+    margin-bottom: 8px;
+}
+
+.comment-box p {
+    margin: 5px 0;            
+    line-height: 1.5;         
+}

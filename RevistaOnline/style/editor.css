@@ -1,0 +1,12 @@
+.article-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+.comment-box {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+}
