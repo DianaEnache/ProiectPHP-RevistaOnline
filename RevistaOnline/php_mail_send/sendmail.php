@@ -33,7 +33,7 @@ if ($_POST['submitContact']) {
 
                 try {
                     //Server settings
-                    //$mail->SMTPDebug = SMTP::DEBUG_SERVER;                      //Enable verbose debug output
+                    //$mail->SMTPDebug = SMTP::DEBUG_SERVER;                      
                     $mail->isSMTP();  
                     $mail->SMTPAuth   = true;  
                     
@@ -41,20 +41,20 @@ if ($_POST['submitContact']) {
                     
                                                                                 
                     $mail->Host       = 'smtp.gmail.com';                                            
-                    $mail->Username   = 'user@gmail.com';                     //adrea noua de google creata
-                    $mail->Password   = 'secret';  //app password din gmail dar nu reuseeeesc sa il fac sa mearga
+                    $mail->Username   = 'user@gmail.com';       //adrea noua de google creata
+                    $mail->Password   = 'secret';              //app password din gmail dar nu reuseeeesc sa il fac sa mearga
                                             
                     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;            //ENCRYPTION_SMTPS 465- Enable implicit TLS encryption
                     $mail->Port       = 587;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
                     //Recipients
                     $mail->setFrom('user@gmail.com', 'Revista Online');
-                    $mail->addAddress('user@gmail.com', 'Revista Online');     //Add a recipient
+                    $mail->addAddress('user@gmail.com', 'Revista Online');     
                     
 
                     //Attachments
-                    //$mail->addAttachment('/var/tmp/file.tar.gz');         //Add attachments
-                    //$mail->addAttachment('/tmp/image.jpg', 'new.jpg');    //Optional name
+                    //$mail->addAttachment('/var/tmp/file.tar.gz');         
+                    //$mail->addAttachment('/tmp/image.jpg', 'new.jpg');   
 
                     //Content
                     $mail->isHTML(true);                                  //Set email format to HTML
