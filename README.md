@@ -8,7 +8,7 @@
 ## Deployment
 The application can be hosted locally using **Apache + MySQL (XAMPP/LAMP)** or deployed on a remote hosting provider. 
 
-🔗 **Live**: http://revistaonline.infinityfreeapp.com
+🔗 **Live**:[ http://revistaonline.infinityfreeapp.com](https://revistaonline.infinityfreeapp.com/)
 
 ---
 
